@@ -1,6 +1,21 @@
+/* Table of Contents */
+/* 
+1. header
+2. Tablet
+3. Popular
+
+
+
+*/
+
+
+
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -10,25 +25,42 @@
 }
 
 .fa-solid, .fa-regular {
-    color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 115%;
 }
 
+p{
+  font-size: 10px;
+  margin-top: 5px;
+}
 body {
     display: flex;
     justify-content: center;
+    background-color: white;
 }
+
+/****** Header Start***********/
 
 .main-container {
     width: 100%;
     padding: 0 50px;
-    box-sizing: border-box;
+    padding: 0 20px;
 }
 
 .section-title {
     margin: 0;
     font-size: 22px;
+    font-weight: 700;  
 }
 
+.Accommodation-title {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
 .card {
     background-color: white;
     border-radius: 20px;
@@ -37,11 +69,14 @@ body {
 }
 
 .card img {
-    object-fit: cover;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .card-title {
     font-size: 16px;
+    font-weight: 700;
 }
 
 .euro {
@@ -56,6 +91,8 @@ body {
 .accommodation-and-popular {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .accommodation-and-popular section {
@@ -63,14 +100,16 @@ body {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+    margin-top: 20px;
+    max-block-size: 1000px;
 }
 
 /****** Accommodation ***********/
 .accommodation {
-    width: 65%;
+  width: 65%;
 }
 
-/****** Popular ***********/
+/****** 3. Popular START ***********/
 .popular {
     width: 32%;
 }
@@ -91,6 +130,7 @@ body {
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    
 }
 
 .popular-cards .card-content {
@@ -114,3 +154,4 @@ body {
 .popular-cards .card-rating {
     margin-bottom: 5px;
 }
+/****** 3. Popular END ***********/
