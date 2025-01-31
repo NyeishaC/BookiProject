@@ -8,9 +8,6 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 h1,
@@ -174,14 +171,13 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    background-color: white;
 }
 
 
 .main-container {
-    width: 100%;
-    padding: 0 50px;
-    padding: 0 20px;
+width: 100%;
+padding: 0 50px;
+box-sizing: border-box;
 }
 
 .section-title {
