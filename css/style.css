@@ -13,6 +13,18 @@
     box-sizing: border-box;
 }
 
+h1,
+h3,
+h4 {
+  font-family: Raleway;
+  font-size: 22px;
+  line-height: 25.83px;
+  margin-left: 38px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -35,6 +47,7 @@ p {
   margin-right: 20px;
 }
 
+/* Header Start */
 
 .header-container {
   display: flex;
@@ -69,19 +82,9 @@ top: 0px;
   width: 121.09px;
   padding: 30px;
 }
+/* Header End */
 
-h1,
-h3,
-h4 {
-  font-family: Raleway;
-  font-size: 22px;
-  line-height: 25.83px;
-  margin-left: 38px;
-  margin-right: 20px;
-  margin-bottom: 5px;
-}
-
-
+/* Search Section Start */
 .search-container {
   display: flex;
   padding: 20px;
@@ -118,6 +121,8 @@ h4 {
   width: 60px;
   background-color: #f2f2f2;
 }
+/* Search Section Start */
+
 
 /* Filter Section Start */
 
@@ -145,6 +150,7 @@ gap: 5px;
 }
 /* Filter Section End */
 
+/* Info Section Start */
 .info-section {
   display: flex;
   flex-direction: row-reverse;
@@ -160,9 +166,12 @@ gap: 5px;
 .info-section p {
   margin-left: 1px;
 }
+/* Info Section Ends */
 
 
 body {
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     background-color: white;
@@ -181,10 +190,8 @@ body {
     font-weight: 700;  
 }
 
-.Accommodation-title {
-    margin: 0;
-    font-size: 22px;
-    font-weight: 700;
+.accommodation-title {
+margin-bottom: 20px;
     
 }
 .card {
@@ -195,14 +202,14 @@ body {
 }
 
 .card img {
-  width: 100%;
-  border-radius: 20px 20px 0 0;
+  /* width: 100%; */
+  /* border-radius: 20px 20px 0 0; */
   object-fit: cover;
 }
 
 .card-title {
     font-size: 16px;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .euro {
@@ -217,8 +224,6 @@ body {
 .accommodation-and-popular {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
 }
 
 .accommodation-and-popular section {
@@ -226,13 +231,17 @@ body {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
-    margin-top: 20px;
-    max-block-size: 1000px;
 }
-
 /****** Accommodation ***********/
 .accommodation {
   width: 65%;
+  display: flex;
+ flex-direction: column;
+}
+
+.accommodation-cards {
+  display: flex;
+  width: 250px;
 }
 
 /****** 3. Popular START ***********/
@@ -284,7 +293,3 @@ body {
 
 /* Tablet START */
 /* Mobile START */
-@media only screen and (max-width :768px) {
- .fa-search {
-  color: rgb(238, 84, 217);
- 
