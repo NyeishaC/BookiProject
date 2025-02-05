@@ -29,10 +29,7 @@ h4 {
 }
 
 .fa-solid, .fa-regular {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 115%;
+ color: var(--main-color);
 }
 
 p {
@@ -110,11 +107,14 @@ top: 0px;
   font-size: 18px;
   text-align: center;
 }
-.fa-solid.fa-location-dot {
+.location-icon {
+  display: flex;
   margin-left: 10px;
   border-radius: 50px 0 0 50px;
   width: 60px;
   background-color: #f2f2f2;
+  justify-content: center;
+  align-items: center;
 }
 /* Search Section Start */
 
@@ -243,19 +243,20 @@ margin-bottom: 20px;
 }
 
 .accommodation-cards .card-content {
-    padding-left: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
 }
 
 .accommodation-cards .card-title {
     margin-top: 10px;
-    margin-bottom: 4px;
 }
 
 .accommodation-cards .card-subtitle {
+  margin-top: 0px;
+}
+
+.accommodation-cards .card-rating {
+
 }
 
 /****** 3. Popular START ***********/
