@@ -75,8 +75,6 @@ top: 0px;
 }
 
 .booki-icon {
-  height: 79px;
-  width: 121.09px;
   padding: 30px;
 }
 /* Header End */
@@ -201,6 +199,10 @@ margin-bottom: 20px;
   /* width: 100%; */
   /* border-radius: 20px 20px 0 0; */
   object-fit: cover;
+  width: 250.33px;
+  height: 124px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .card-title {
@@ -231,13 +233,29 @@ margin-bottom: 20px;
 /****** Accommodation ***********/
 .accommodation {
   width: 65%;
-  display: flex;
- flex-direction: column;
 }
 
-.accommodation-cards {
-  display: flex;
-  width: 250px;
+.accommodation-cards .card {
+    display: flex;
+    width: 250.33px;
+    height: 207.25px;
+    flex-wrap: wrap;
+}
+
+.accommodation-cards .card-content {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.accommodation-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.accommodation-cards .card-subtitle {
 }
 
 /****** 3. Popular START ***********/
