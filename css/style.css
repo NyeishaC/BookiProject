@@ -210,6 +210,10 @@ margin-bottom: 20px;
     /* font-weight: 700; */
 }
 
+.card-rating {
+  padding-left: 5px;
+}
+
 .euro {
     font-weight: 700;
 }
@@ -234,12 +238,17 @@ margin-bottom: 20px;
 .accommodation {
   width: 65%;
 }
+.accommodation-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .accommodation-cards .card {
     display: flex;
     width: 250.33px;
     height: 207.25px;
     flex-wrap: wrap;
+    margin-top: 33px;
 }
 
 .accommodation-cards .card-content {
@@ -256,7 +265,10 @@ margin-bottom: 20px;
 }
 
 .accommodation-cards .card-rating {
-
+display: flex;
+padding-left: 36px;
+position: relative;
+bottom: 9px;
 }
 
 /****** 3. Popular START ***********/
