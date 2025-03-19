@@ -342,9 +342,11 @@ bottom: 9px;
   text-align: center;
   padding: 20px 0;
 }
-.bottomn-info {
-  background-color: var(--filter-bg-color);
+.bott-info-sections {
+  background-color: var(--main-bg-color);
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
 }
 /* Tablet START */
 
