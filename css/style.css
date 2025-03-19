@@ -127,6 +127,10 @@ align-items: center;
 gap: 5px;
 }
 
+.Filterword {
+  margin-bottom: 22px;
+}
+
 .filter-button {
  display: flex;
  align-items: center;
