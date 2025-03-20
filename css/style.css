@@ -244,16 +244,16 @@ margin-bottom: 20px;
 .accommodation-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 25px;
 }
 
 .accommodation-cards .card {
-  width: 100%;
-  max-width: 300px;
+  width: 250.33px;
+  height: 207.25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+box-sizing: border-box;
 }
 
 .accommodation-cards .card-content {
@@ -262,7 +262,7 @@ margin-bottom: 20px;
 }
 
 .accommodation-cards .card-title {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .accommodation-cards .card-subtitle {
@@ -339,13 +339,14 @@ bottom: 9px;
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: #f8f8fa;
   text-align: center;
   padding: 20px 0;
 }
+
 .bott-info-sections {
   background-color: var(--main-bg-color);
   display: grid;
