@@ -334,8 +334,9 @@ bottom: 9px;
   gap: 30px;
 }
 
-.activities-cards img {
-  max-height: 380px;
+.activities-cards img{
+  width: 297.5px;
+  height: 439px;
 }
 
 .footer {
@@ -351,13 +352,4 @@ bottom: 9px;
   background-color: var(--main-bg-color);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-
 }
-
-@media screen and (min-width:1440px) and (min-height: 189.02px) {
-  }
-
-  @media screen and (max-width: 375px) and (max-height: 4058.02px) {
-
-  }
-    
