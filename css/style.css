@@ -79,69 +79,55 @@ top: 0px;
 /* Search Section Start */
 .search-container {
   display: flex;
-  padding: 20px;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 0;
 }
 
-.search-button {
-  width: 100px;
+.search-heading h1 {
+  font-size: 28px;
+}
+
+.search-bar-area {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.location-icon {
+  width: 60px;
   height: 49px;
-  border: 1px solid #0065fc;
-  border-radius: 0px 50px 50px 0px;
-  background-color: #0065fc;
-  color: #f2f2f2;
-}
-
-.search-button p {
- margin: 15px;
- font-weight: 800;
+  background-color: #f2f2f2;
+  border-radius: 50px 0 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-bar {
-  width: 200px;
+  flex: 1;
+  min-width: 150px;
+  height: 49px;
+  padding: 0 10px;
   border: 1px solid #f2f2f2;
-  background-color: #ffffff;
+  background-color: white;
 }
-.search-bar::placeholder {
-  font-weight: bold;
-  color: black;
-  font-size: 18px;
-  text-align: center;
+
+.search-button {
+  height: 49px;
+  padding: 0 20px;
+  border: 1px solid #0065fc;
+  border-radius: 0 50px 50px 0;
+  background-color: #0065fc;
+  color: #f2f2f2;
+  font-weight: 800;
 }
-.location-icon {
-  display: flex;
-  margin-left: 10px;
-  border-radius: 50px 0 0 50px;
-  width: 60px;
-  background-color: #f2f2f2;
-  justify-content: center;
-  align-items: center;
+
 }
 /* Search Section Start */
 
 
 /* Filter Section Start */
-
-.filters-section {
-display: flex;
-align-items: center;
-gap: 5px;
-}
-
-.filterword {
-  margin-bottom: 22px;
-}
-
-.filter-button {
- display: flex;
- align-items: center;
- border: 2px solid #f2f2f2;
- border-radius: 50px;
-}
-
-.filter-button p {
-  font-weight: 800;
-  margin-left:0px;
-}
 
 .fa-money-bill-wave,.fa-person,.fa-heart,.fa-fire{
  margin: 10px;
