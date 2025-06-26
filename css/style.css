@@ -37,7 +37,6 @@ p {
   font-family: Raleway;
   font-weight: 400;
   line-height: 18.78px;
-  margin-left: 38px;
   margin-right: 20px;
 }
 
@@ -81,11 +80,14 @@ top: 0px;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 20px 0;
+  padding: 20px 38px 20px 38px;
+  /* Align with h1/p margins */
 }
 
 .search-heading h1 {
   font-size: 28px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .search-bar-area {
@@ -122,12 +124,45 @@ top: 0px;
   color: #f2f2f2;
   font-weight: 800;
 }
-
-}
-/* Search Section Start */
+/* Search Section End */
 
 
 /* Filter Section Start */
+.filter-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-left: 38px;
+  padding-right: 20px;
+  /* Align with h1/p margins */
+}
+
+.filter-title {
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background-color: white;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
 
 .fa-money-bill-wave,.fa-person,.fa-heart,.fa-fire{
  margin: 10px;
@@ -140,16 +175,18 @@ top: 0px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
-  padding: 15px;
+  padding-left: 38px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   gap: 5px;
-}
-.fa-circle-info {
-  color: #0065FC;
-  margin-left: 25px;
+  /* Align with h1/p margins */
 }
 
 .info-section p {
-  margin-left: 1px;
+  margin: 0;
+  font-size: 14px;
+  color: #606060;
 }
 /* Info Section Ends */
 
