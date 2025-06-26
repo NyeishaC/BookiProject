@@ -16,7 +16,6 @@ h4 {
   font-family: Raleway;
   font-size: 22px;
   line-height: 25.83px;
-  margin-left: 38px;
   margin-right: 20px;
   margin-bottom: 5px;
 }
@@ -94,6 +93,8 @@ top: 0px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  max-width: 400px;
+  width: 100%;
 }
 
 .location-icon {
@@ -140,8 +141,7 @@ top: 0px;
 
 .filter-title {
   font-size: 18px;
-  font-weight: bold;
-  white-space: nowrap;
+  margin-bottom: 20px
 }
 
 .filter-buttons {
@@ -292,7 +292,6 @@ box-sizing: border-box;
 
 .accommodation-cards .card-rating {
 display: flex;
-padding-left: 36px;
 position: relative;
 bottom: 9px;
 }
@@ -331,9 +330,10 @@ bottom: 9px;
 }
 
 .popular-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
+    margin: auto;
+ 
 }
+
 
 .popular-cards .card-subtitle {
     margin: 0;
@@ -373,6 +373,7 @@ bottom: 9px;
   background-color: var(--main-bg-color);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
 }
 
 /* MOBILE VIEW (Phones) */
