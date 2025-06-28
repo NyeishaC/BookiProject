@@ -199,10 +199,12 @@ body {
 
 
 .main-container {
-width: 100%;
-padding: 0 50px;
-box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 5rem;
+  margin: auto;
 }
+
 
 .section-title {
     margin: 0;
@@ -248,7 +250,7 @@ margin-bottom: 20px;
 /****** Accommodation And Popular ***********/
 .accommodation-and-popular {
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
 }
 
 .accommodation-and-popular section
@@ -259,14 +261,12 @@ margin-bottom: 20px;
     box-sizing: border-box;
 }
 /****** Accommodation ***********/
-.accommodation {
-  width: 65%;
-}
 .accommodation-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 50px;
 }
+
 
 .accommodation-cards .card {
   width: 250.33px;
@@ -346,13 +346,12 @@ bottom: 9px;
 /****** 3. Popular END ***********/
 /****** 3. Activities Start ***********/
 .activities {
-  padding: 5px;
+  padding: 20px;
 }
 
 .activities-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .activities-cards img{
@@ -360,7 +359,7 @@ bottom: 9px;
   height: 439px;
 }
 
-.bottomn-info{
+.footer {
   position: relative;
   bottom: 0;
   width: 100%;
